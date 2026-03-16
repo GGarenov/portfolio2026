@@ -1,7 +1,38 @@
-import React from 'react'
+import React from 'react';
+import './Projects.css';
+import { projectData } from '../../data/projectData';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
 
 export default function Projects() {
   return (
-    <div>Projects</div>
-  )
+    <main className="projects">
+      <section className="section">
+        <div className="container">
+          <header className="projects-header">
+            <p className="text-label">Projects</p>
+            <h2 className="projects-title">Selected Work</h2>
+            <p className="projects-subtitle">
+              A collection of full-stack and front-end projects showcasing my experience
+              with React, TypeScript, and the MERN stack.
+            </p>
+          </header>
+
+          <div className="projects-list">
+            {projectData.map((project, index) => (
+              <ProjectCard
+                key={project.title}
+                title={project.title}
+                description={project.description}
+                tech={project.tech}
+                image={project.image}
+                liveDemo={project.liveDemo}
+                github={project.github}
+                reversed={index % 2 === 1}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
+  );
 }

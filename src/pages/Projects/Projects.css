@@ -1,0 +1,33 @@
+.projects {
+  display: block;
+}
+
+.projects-header {
+  max-width: 40rem;
+  margin-bottom: 2.5rem;
+}
+
+.projects-title {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.projects-subtitle {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+@media (max-width: 900px) {
+  .projects-header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
