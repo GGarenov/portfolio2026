@@ -1,13 +1,18 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import './Home.css';
 import georgiPhoto from '../../assets/images/georgi-photo.jpg';
 
+function scrollToSection(id) {
+  const el = document.getElementById(id);
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
 export default function Home() {
-  const navigate = useNavigate();
 
   return (
-    <main className="home">
+    <main className="home" id="home">
       <section className="hero section">
         <div className="container hero-inner">
           <div className="hero-content">
@@ -22,14 +27,14 @@ export default function Home() {
               <button
                 className="btn-primary"
                 type="button"
-                onClick={() => navigate('/projects')}
+                onClick={() => scrollToSection('projects')}
               >
                 View Projects
               </button>
               <button
                 className="btn-secondary"
                 type="button"
-                onClick={() => navigate('/contact')}
+                onClick={() => scrollToSection('contact')}
               >
                 Contact Me
               </button>

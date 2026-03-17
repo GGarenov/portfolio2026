@@ -5,8 +5,7 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard';
 
 export default function Projects() {
   return (
-    <main className="projects">
-      <section className="section">
+    <section className="projects section" id="projects">
         <div className="container">
           <header className="projects-header">
             <p className="text-label">Projects</p>
@@ -33,6 +32,5 @@ export default function Projects() {
           </div>
         </div>
       </section>
-    </main>
   );
 }
