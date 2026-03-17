@@ -7,7 +7,7 @@ export default function Skills() {
     <section className="skills section" id="skills">
         <div className="container">
           <header className="skills-header">
-            <p className="text-label">Skills</p>
+            <p className="text-label">Tech stack</p>
             <h2 className="skills-title">Technologies I Work With</h2>
             <p className="skills-subtitle">
               A mix of core web technologies, modern frameworks, backend tools, and

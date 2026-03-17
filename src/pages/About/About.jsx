@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import './About.css';
 import georgiPhoto from '../../assets/images/georgi-photo.jpg';
 
 function scrollToSection(id) {
@@ -9,19 +9,17 @@ function scrollToSection(id) {
   }
 }
 
-export default function Home() {
+export default function About() {
 
   return (
-    <main className="home" id="home">
+    <main className="about" id="about">
       <section className="hero section">
         <div className="container hero-inner">
           <div className="hero-content">
             <p className="text-label">Available for freelance</p>
             <h1 className="hero-title">Full-stack Developer</h1>
             <p className="hero-subtitle">
-              I build high-performance web applications and bring Figma designs to life
-              with pixel-perfect code. Specializing in React, TypeScript, and the MERN
-              stack.
+            I build fast, scalable web applications and turn Figma designs into pixel-perfect, responsive interfaces. Specializing in React and the MERN stack, I focus on delivering clean, maintainable code that helps businesses launch and grow their products.
             </p>
             <div className="hero-actions">
               <button

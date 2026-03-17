@@ -1,13 +1,9 @@
 import React from 'react';
 import './ProjectCard.css';
 
-export default function ProjectCard({ title, description, tech, image, liveDemo, github, reversed }) {
+export default function ProjectCard({ title, description, tech, image, liveDemo, github }) {
   return (
-    <article
-  className={`project-card card-shadow ${
-    reversed ? 'project-card--reversed' : ''
-  }`}
->
+    <article className="project-card card-shadow">
       <div className="project-card-image">
         <img src={image} alt={title} />
       </div>

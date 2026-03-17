@@ -5,8 +5,8 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <nav className="navbar-inner">
-        <a href="#home" className="nav-link">
-          Home
+      <a href="#about" className="nav-link">
+          About
         </a>
         <a href="#services" className="nav-link">
           Services

@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './pages/Home/Home';
+import About from './pages/About/About';
 import Services from './pages/Services/Services';
 import Projects from './pages/Projects/Projects';
 import Skills from './pages/Skills/Skills';
@@ -11,7 +11,7 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <Home />
+      <About />
       <Services />
       <Projects />
       <Skills />

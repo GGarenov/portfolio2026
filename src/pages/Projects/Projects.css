@@ -19,8 +19,8 @@
 }
 
 .projects-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.75rem;
 }
 
@@ -29,5 +29,9 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .projects-list {
+    grid-template-columns: 1fr;
   }
 }

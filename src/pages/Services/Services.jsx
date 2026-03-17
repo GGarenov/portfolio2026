@@ -1,27 +1,6 @@
 import React from 'react';
 import './Services.css';
-import { FaCode, FaShoppingCart, FaRocket } from 'react-icons/fa';
-
-const services = [
-  {
-    icon: FaCode,
-    title: 'Figma to React',
-    description:
-      'Pixel-perfect conversion of UI designs into responsive, production-ready React components.',
-  },
-  {
-    icon: FaShoppingCart,
-    title: 'eCommerce Interfaces',
-    description:
-      'High-converting product pages, carts, and checkout flows optimized for performance and clarity.',
-  },
-  {
-    icon: FaRocket,
-    title: 'Frontend Development',
-    description:
-      'Modern, scalable frontend applications with React, TypeScript, and strong state management.',
-  },
-];
+import { services } from '../../data/services';
 
 export default function Services() {
   return (

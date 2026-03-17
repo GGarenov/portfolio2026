@@ -17,7 +17,7 @@
   --secondary-foreground: #e5e7eb;
 
   --muted: #9ca3af;
-  --muted-foreground: #6b7280;
+  --muted-foreground: #f59e0b;
 
   --accent: #1f2937;
   --accent-foreground: #e5e7eb;
@@ -78,6 +78,7 @@ body {
 .section {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  scroll-margin-top: 2rem;
 }
 
 .section-sm {

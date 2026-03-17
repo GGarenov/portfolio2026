@@ -17,7 +17,7 @@ export default function Projects() {
           </header>
 
           <div className="projects-list">
-            {projectData.map((project, index) => (
+            {projectData.map((project) => (
               <ProjectCard
                 key={project.title}
                 title={project.title}
@@ -26,7 +26,6 @@ export default function Projects() {
                 image={project.image}
                 liveDemo={project.liveDemo}
                 github={project.github}
-                reversed={index % 2 === 1}
               />
             ))}
           </div>
