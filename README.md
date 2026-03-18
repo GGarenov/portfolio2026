@@ -1,16 +1,119 @@
-# React + Vite
+# Portfolio 2026 ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi, I’m Georgi — this is my personal portfolio where I showcase the projects I’ve built and the technologies I enjoy working with. 🚀
 
-Currently, two official plugins are available:
+🌐 **Live site**: `https://georgigarenovportfolio.netlify.app/`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What you’ll find here 👇
 
-## React Compiler
+- 🧩 **Projects**: a curated list of real apps I’ve built (with live demos + source code)
+- 🛠️ **Skills & services**: the tools I use and the type of work I do
+- 📬 **Contact page**: an easy way to reach out
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech stack 🧰
 
-## Expanding the ESLint configuration
+- ⚛️ **React 19**: component-based UI
+- 🧭 **React Router**: multi-page navigation (SPA routing)
+- ⚡ **Vite**: fast dev server + optimized production builds
+- 🎨 **Styling**: modern CSS + `react-icons`
+- ✅ **Code quality**: ESLint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> The portfolio content (projects/skills/services) is driven by simple data files in `src/data/` so it’s easy to update without touching UI components. 🧠
+
+## Getting started
+
+### Prerequisites
+
+- **Node.js**: recent LTS recommended
+- **npm**: comes with Node
+
+### Install & run
+
+```bash
+npm install
+npm run dev
+```
+
+Open the URL printed by Vite (typically `http://localhost:5173`).
+
+## Scripts
+
+```bash
+# Start dev server
+npm run dev
+
+# Production build
+npm run build
+
+# Preview production build locally
+npm run preview
+
+# Lint
+npm run lint
+```
+
+## Project structure
+
+```text
+src/
+  assets/            # Images, static assets
+  components/        # Reusable UI components
+  data/              # Portfolio content (projects, skills, services)
+  pages/             # Route pages (e.g. Contact)
+```
+
+## Content updates
+
+Most portfolio content is driven by files in `src/data/`:
+
+- **Projects**: `src/data/projectData.js` (titles, descriptions, tech tags, links, images)
+- **Services**: `src/data/services.js`
+- **Skills**: `src/data/skills.js`
+
+## Featured projects 🧑‍💻
+
+Below are the highlighted projects currently listed in `src/data/projectData.js` (each one has a **Live Demo** + **GitHub** link on the site):
+
+### 1) Sunglasses Ecommerce Website 🕶️
+
+A full-stack e-commerce app with a shopping experience and an admin interface.
+
+- **Tech**: React, Tailwind CSS, Vite, Node.js, Express, MongoDB
+- **What it demonstrates**: product flows, admin/shop separation, full-stack integration
+
+### 2) Real Estate Marketplace 🏠
+
+A MERN marketplace where users can browse and filter listings, and authenticated users can create/manage listings and profiles (including images).
+
+- **Tech**: React, Redux, Tailwind CSS, Node.js, Express, Firebase, Render
+- **What it demonstrates**: auth + CRUD, filtering, profile/listing management, production deployment
+
+### 3) Small Portfolio Website 2025 🎯
+
+A lightweight portfolio built for speed and simplicity.
+
+- **Tech**: React, Tailwind CSS, Vite
+- **What it demonstrates**: clean UI, fast load, straightforward architecture
+
+### 4) Angular Blog + Admin Panel 📝
+
+A blog with an admin panel for CRUD operations.
+
+- **Tech**: Angular, Firebase
+- **What it demonstrates**: Angular fundamentals, admin CRUD flows, hosted backend services
+
+### 5) Personal Portfolio 2024 👨‍💼
+
+An earlier portfolio version with a classic UI stack and contact integration.
+
+- **Tech**: React, Bootstrap, EmailJS, GitHub Pages
+- **What it demonstrates**: responsive layout, email/contact integration, static hosting workflow
+
+### 6) Tetris Game 🎮
+
+A fun game project showcasing UI logic and JavaScript fundamentals inside a React app.
+
+- **Tech**: React, Vite, Tailwind CSS
+- **What it demonstrates**: interactive state, game loop-style logic, UI responsiveness
+
+
