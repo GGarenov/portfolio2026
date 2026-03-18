@@ -9,10 +9,10 @@ export default function Projects() {
         <div className="container">
           <header className="projects-header">
             <p className="text-label">Projects</p>
-            <h2 className="projects-title">Selected Work</h2>
+            <h2 className="projects-title">My Work</h2>
             <p className="projects-subtitle">
-              A collection of full-stack and front-end projects showcasing my experience
-              with React, TypeScript, and the MERN stack.
+              Part of my projects collection of full-stack and front-end projects showcasing my experience
+              with MERN stack and a couple of more complex projects.
             </p>
           </header>
 

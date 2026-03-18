@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 1.5rem;
     padding: 1.5rem;
-    border-radius: 10px;
+    border-radius: var(--radius);
     background-color: var(--card);
     color: var(--card-foreground);
     border: 1px solid var(--border);
@@ -12,7 +12,7 @@
 
 .project-card-image {
     width: 100%;
-    border-radius: 10px;
+    border-radius: var(--radius);
     overflow: hidden;
     aspect-ratio: 16 / 9;
 }
@@ -68,12 +68,59 @@
 }
 
 .project-link {
-    font-size: 0.85rem;
-    color: var(--muted);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.05rem;
+    min-height: 44px;
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--card-foreground);
+    transition: transform 120ms ease, background-color 120ms ease, border-color 120ms ease,
+        color 120ms ease, box-shadow 120ms ease;
+}
+
+.project-link-icon {
+    width: 1.05rem;
+    height: 1.05rem;
+    flex: 0 0 auto;
+}
+
+.project-card-links .project-link:first-child {
+    background: var(--primary);
+    border-color: color-mix(in srgb, var(--primary) 80%, var(--border));
+    color: var(--primary-foreground);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+}
+
+.project-card-links .project-link:last-child {
+    border-color: color-mix(in srgb, var(--primary) 50%, var(--border));
+    background: color-mix(in srgb, var(--primary) 8%, transparent);
 }
 
 .project-link:hover {
-    color: var(--foreground);
+    transform: translateY(-1px);
+    border-color: color-mix(in srgb, var(--primary) 70%, var(--border));
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.28);
+}
+
+.project-card-links .project-link:first-child:hover {
+    background: color-mix(in srgb, var(--primary) 92%, #ffffff 8%);
+}
+
+.project-link:active {
+    transform: translateY(0);
+}
+
+.project-link:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--ring) 40%, transparent),
+        0 10px 26px rgba(0, 0, 0, 0.28);
 }
 
 @media (max-width: 900px) {

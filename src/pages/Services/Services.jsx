@@ -8,7 +8,7 @@ export default function Services() {
         <div className="container">
           <header className="services-header">
             <p className="text-label">Services</p>
-            <h2 className="services-title">What I Can Help You With</h2>
+            <h2 className="services-title">What I can help you with</h2>
           </header>
 
           <div className="services-grid">

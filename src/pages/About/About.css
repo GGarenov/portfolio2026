@@ -39,7 +39,7 @@
 
 .hero-photo {
   max-width: 260px;
-  border-radius: 10px;
+  border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid var(--border);
 }

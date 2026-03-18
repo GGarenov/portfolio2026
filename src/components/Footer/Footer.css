@@ -1,7 +1,7 @@
 .footer {
   border-top: 1px solid var(--border);
   padding: 1.5rem 0;
-  background-color: #050816;
+  background-color: #161b20;
 }
 
 .footer-inner {
@@ -23,7 +23,7 @@
 }
 
 .footer-link:hover {
-  color: var(--foreground);
+  color: var(--muted-foreground);
 }
 
 @media (max-width: 640px) {

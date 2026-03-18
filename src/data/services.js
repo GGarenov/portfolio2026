@@ -3,25 +3,24 @@ import { FaShoppingBag } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaRocket } from "react-icons/fa6";
-import { FaHtml5 } from "react-icons/fa";
 
 
 export const services = [
     {
         icon: FiFigma,
         title: "Figma to React Development",
-        description: "Accurate, pixel-perfect conversion of Figma designs into fully responsive websites using HTML, CSS, and React, with clean and maintainable code."
+        description: "Pixel-perfect conversion of Figma designs into fully responsive React applications, with clean, maintainable code and attention to performance and detail."
     },
     {
         icon: FaRocket,
         title: "Landing Pages",
-        description: "Pixel-perfect conversion of UI designs into responsive, production-ready websites."
+        description: "High-converting landing pages built from designs or existing websites, optimized for speed, responsiveness, and user engagement."
     },
     
     {
         icon: FaShoppingBag,
         title: "eCommerce Development",
-        description: "Development of responsive eCommerce websites and components, including product pages, shopping carts, and checkout flows designed to improve user experience and conversions."
+        description: "Responsive eCommerce websites and components, including product pages, carts, and checkout flows designed to improve user experience and increase conversions."
     },
     {
         icon: FaNodeJs,
@@ -31,11 +30,11 @@ export const services = [
     {
         icon: FaReact,
         title: "React Web Applications",
-        description: "Building fast, scalable React applications with modern best practices, reusable components, and optimized performance."
+        description: "Fast, scalable React applications built with reusable components, clean architecture, and best practices for long-term maintainability."
     },
     {
         icon: FaHtml5,
         title: "Responsive UI & CSS",
-        description: "Creating clean, responsive layouts with modern CSS, ensuring consistent design across all devices and smooth user experience."
+        description: "Clean, responsive interfaces built with modern CSS, ensuring consistent design, cross-browser compatibility, and smooth user experience on all devices."
     },
 ];
