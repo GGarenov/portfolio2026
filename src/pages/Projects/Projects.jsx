@@ -12,7 +12,7 @@ export default function Projects() {
             <h2 className="projects-title">My Work</h2>
             <p className="projects-subtitle">
               Part of my projects collection of full-stack and front-end projects showcasing my experience
-              with MERN stack and a couple of more complex projects.
+              with MERN stack.
             </p>
           </header>
 
