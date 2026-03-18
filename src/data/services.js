@@ -3,6 +3,7 @@ import { FaShoppingBag } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaRocket } from "react-icons/fa6";
+import { FaHtml5 } from "react-icons/fa";
 
 
 export const services = [
