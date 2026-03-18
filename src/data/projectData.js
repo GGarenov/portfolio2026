@@ -1,5 +1,5 @@
 export const projectData = [
-    {
+  {
       title: "Sunglasses Ecommerce Website",
       description:
         "A full-stack e-commerce application built with React and Node.js, featuring both shopping and admin interfaces.",
@@ -24,6 +24,15 @@ export const projectData = [
       image: "/assets/images/project2.png",
       liveDemo: "https://real-estate-app-mern-qxrr.onrender.com/",
       github: "https://github.com/GGarenov/real-estate-app",
+    },
+    {
+      title: "Small Portfolio Website 2025",
+      description:
+        "A personal portfolio website fast and lightwieght built with React, Vite, and Tailwind CSS. The demo is deployed on Netlify",
+      tech: ["React", "Tailwind", "Vite"],
+      image: "/assets/images/project6.png",
+      liveDemo: "https://ggarenov-portfolio.netlify.app/",
+      github: "https://github.com/GGarenov/portfolio-2025",
     },
     {
       title: "Angular Blog + Admin Panel",

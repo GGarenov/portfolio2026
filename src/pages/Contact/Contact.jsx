@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css';
-import { FaGithub, FaLinkedin } from 'react-icons/fa6';
+import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa6';
+import resumePdf from '../../assets/GGarenov_resume.pdf';
 
 export default function Contact() {
   return (
@@ -17,6 +18,16 @@ export default function Contact() {
 
           <div className="contact-content">
             <div className="contact-links">
+              <a
+                href={resumePdf}
+                download="GGarenov_resume.pdf"
+                className="contact-link-card card border-shadow"
+              >
+                <FaDownload className="contact-link-icon" aria-hidden="true" />
+                <span className="contact-link-title">Download resume</span>
+                <span className="contact-link-subtitle">Grab a PDF copy of my latest CV.</span>
+              </a>
+
               <a
                 href="https://github.com/GGarenov"
                 target="_blank"
