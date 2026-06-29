@@ -34,4 +34,13 @@ export const projectData = [
     liveDemo: "https://ggarenov.github.io/vanilla-js-ecommerce/",
     github: "https://github.com/GGarenov/vanilla-js-ecommerce",
   },
+  {
+    title: "Full-Stack WC 2026 Tournament Game (NestJS/React/TS/Mongo)",
+    description:
+      "A full-stack tournament app built with React, TypeScript, and NestJS, where players pick one winning team per round under strict no-reuse rules, with automated elimination, standings, and an admin panel for crud operations. ",
+    tech: ["NestJS", "React", "TypeScript", "Zustand", "LESS CSS", "Mongo DB"],
+    image: "/assets/images/project4.png",
+    liveDemo: "https://lastmanstandingbggame.netlify.app/en",
+    github: "https://github.com/GGarenov/lastManStanding",
+  },
 ];
